@@ -1,0 +1,3 @@
+[submodule "assets/assets/video"]
+	path = assets/assets/video
+	url = https://github.com/triscroumanie/ia.git

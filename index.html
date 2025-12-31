@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Voyage en Roumanie 2025</title>
+    <link rel="shortcut icon" href="assets/img/Flag_of_Romania.ico" type="image/x-icon">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">🇷🇴 Roumanie 2025</div>
+      <div class="nav-links">
+        <a href="#accueil">Accueil</a>
+        <a href="#jours">Jours</a>
+        <!-- <a href="#contact">Contact</a> -->
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="accueil">
+    <div class="hero-content">
+      <h1>Voyage en Roumanie 2025</h1>
+      <p>Découvrez notre adventure scolaire à travers la Roumanie</p>
+      <button class="cta-button" onclick="document.getElementById('jours').scrollIntoView({behavior: 'smooth'})">
+        Explorer
+      </button>
+    </div>
+  </section>
+
+  <!-- Stats Section -->
+  <section class="stats">
+    <div class="stats-container">
+      <div class="stat-card">
+        <div class="stat-value">5</div>
+        <div class="stat-label">Jours</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value">200+</div>
+        <div class="stat-label">Photos</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value">3</div>
+        <div class="stat-label">Villes</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Days Section -->
+  <section class="days" id="jours">
+    <h2>Les Jours</h2>
+    <div class="days-grid">
+      <!-- Arrivée -->
+      <div class="day-card" onclick="openDay('arrival')">
+        <div class="day-header">Arrivée</div>
+        <p>Notre arrivée en Roumanie - de Lyon à l'auberge de Targu Neamt</p>
+      </div>
+
+      <!-- Jour 1 -->
+      <div class="day-card" onclick="openDay('day1')">
+        <div class="day-header">Jour 1</div>
+        <p>Découverte du lycée roumain et de la maison de l'écrivain Ion Greangá</p>
+      </div>
+
+      <!-- Jour 2 -->
+      <div class="day-card" onclick="openDay('day2')">
+        <div class="day-header">Jour 2</div>
+        <p>Visite de la magnifique citadelle de Neamț</p>
+      </div>
+
+      <!-- Jour 3 -->
+      <div class="day-card" onclick="openDay('day3')">
+        <div class="day-header">Jour 3</div>
+        <p>Visite de l'entreprise ELECTRA et exploration de Iaşi</p>
+      </div>
+
+      <!-- Jour 4 -->
+      <div class="day-card" onclick="openDay('day4')">
+        <div class="day-header">Jour 4</div>
+        <p>Ateliers créatifs et réserve de bisons</p>
+      </div>
+      <!-- Jour 5 -->
+      <div class="day-card" onclick="openDay('day5')">
+        <div class="day-header">Jour 5</div>
+        <p>Visite de la magnifique ville de Brașov et l'Église noire</p>
+      </div>
+      <!-- Jour 5 -->
+      <div class="day-card" onclick="openDay('day5')">
+        <div class="day-header">Jour 5</div>
+        <p>Visite de la magnifique ville de Brașov et l'Église noire</p>
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- Gallery Modal -->
+  <div id="galleryModal" class="modal">
+    <span class="close" onclick="closeGallery()">&times;</span>
+    <div class="modal-content">
+      <h2 id="modalTitle"></h2>
+      <p id="modalDescription"></p>
+      <div class="gallery-grid" id="galleryGrid"></div>
+    </div>
+  </div>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox">
+    <span class="close" onclick="closeLightbox()">&times;</span>
+    <img class="lightbox-image" id="lightboxImage" src="/placeholder.svg" alt="">
+    <video class="lightbox-video" id="lightboxVideo" controls style="display:none; max-width:90%; max-height:80%;"></video>
+    <p class="lightbox-caption" id="lightboxCaption"></p>
+    <div class="lightbox-nav">
+      <button class="nav-button prev" onclick="prevImage()">❮</button>
+      <button class="nav-button next" onclick="nextImage()">❯</button>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer" id="contact">
+    <div class="footer-content">
+      <p>&copy; 2025 Voyage en Roumanie - Tous droits réservés</p>
+      <p>Un projet d'échange scolaire inoubliable</p>
+    </div>
+  </footer>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>

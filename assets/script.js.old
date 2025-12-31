@@ -1,0 +1,227 @@
+// Gallery data - facile à modifier
+const galleryData = {
+  arrival: {
+    title: "Arrivée en Roumanie",
+    description: "Notre arrivée en Roumanie - l'embarquement à Lyon Saint Exupéry jusqu'à l'auberge de Targu Neamt",
+    images: [
+      {
+        src: "https://via.placeholder.com/400x300?text=Groupe+aéroport",
+        alt: "Groupe avant embarquement",
+        caption: "Groupe avant l'embarquement",
+      },
+      {
+        src: "https://via.placeholder.com/400x300?text=Avion+EasyJet",
+        alt: "Avion EasyJet",
+        caption: "Embarquement à Lyon Saint Exupéry",
+      },
+      {
+        src: "https://via.placeholder.com/400x300?text=Aéroport+Rome",
+        alt: "Aéroport de Rome",
+        caption: "Aéroport de Rome",
+      },
+      {
+        src: "https://via.placeholder.com/400x300?text=Embarquement+Rome",
+        alt: "Embarquement Rome",
+        caption: "Embarquement à l'Aéroport de Rome",
+      },
+      {
+        src: "https://via.placeholder.com/400x300?text=Auberge+Targu",
+        alt: "Auberge Targu Neamt",
+        caption: "Auberge de Targu Neamt",
+      },
+      {
+        src: "https://via.placeholder.com/400x300?text=Arrivée+auberge",
+        alt: "Arrivée auberge",
+        caption: "Arrivée à l'auberge",
+      },
+      {
+        src: "https://via.placeholder.com/400x300?text=Repas+auberge",
+        alt: "Repas auberge",
+        caption: "Repas à l'auberge",
+      },
+    ],
+  },
+  day1: {
+    title: "Jour 1 - Découverte du lycée",
+    description:
+      "Visite du lycée roumain, rencontre avec les correspondants, et découverte de la maison de l'écrivain Ion Greangá",
+    images: [
+      { src: "https://via.placeholder.com/400x300?text=Lycée", alt: "Entrée lycée", caption: "Découverte du lycée" },
+      {
+        src: "https://via.placeholder.com/400x300?text=Classe",
+        alt: "Photo classe",
+        caption: "Photo de classe avec les correspondants",
+      },
+      { src: "https://via.placeholder.com/400x300?text=Accueil", alt: "Accueil", caption: "Accueil par la proviseure" },
+      {
+        src: "https://via.placeholder.com/400x300?text=Maison+écrivain",
+        alt: "Maison écrivain",
+        caption: "Maison de l'écrivain Ion GREANGÁ",
+      },
+      {
+        src: "https://via.placeholder.com/400x300?text=Musée",
+        alt: "Musée",
+        caption: "Musée sur la région et ses traditions",
+      },
+    ],
+  },
+  day2: {
+    title: "Jour 2 - Citadelle de Neamț",
+    description: "Visite de la magnifique citadelle de Neamț, exploration de l'histoire et des traditions roumaines",
+    images: [
+      { src: "https://via.placeholder.com/400x300?text=Citadelle", alt: "Citadelle", caption: "Citadelle de Neamț" },
+      {
+        src: "https://via.placeholder.com/400x300?text=Arrivée",
+        alt: "Arrivée citadelle",
+        caption: "Arrivée à la Citadelle",
+      },
+      {
+        src: "https://via.placeholder.com/400x300?text=Groupe",
+        alt: "Groupe",
+        caption: "Groupe arrivant à la citadelle",
+      },
+      {
+        src: "https://via.placeholder.com/400x300?text=Histoire",
+        alt: "Histoire",
+        caption: "Explications de l'histoire",
+      },
+      {
+        src: "https://via.placeholder.com/400x300?text=Traditions",
+        alt: "Traditions",
+        caption: "Tenues traditionnelles",
+      },
+    ],
+  },
+  day3: {
+    title: "Jour 3 - Entreprise ELECTRA & Iaşi",
+    description: "Visite de l'entreprise ELECTRA et exploration de la capitale historique Iaşi",
+    images: [
+      { src: "https://via.placeholder.com/400x300?text=ELECTRA", alt: "Usine", caption: "Usine ELECTRA" },
+      {
+        src: "https://via.placeholder.com/400x300?text=Palais+culture",
+        alt: "Palais",
+        caption: "Palais de la culture de Iaşi",
+      },
+      {
+        src: "https://via.placeholder.com/400x300?text=Monastère",
+        alt: "Monastère",
+        caption: "Monastère des Trois Saints",
+      },
+      {
+        src: "https://via.placeholder.com/400x300?text=Cathédrale",
+        alt: "Cathédrale",
+        caption: "Cathédrale Métropolitaine",
+      },
+    ],
+  },
+  day4: {
+    title: "Jour 4 - Ateliers & Réserve de bisons",
+    description: "Atelier avec les correspondants, concours d'affiches et visite d'une réserve de bisons",
+    images: [
+      { src: "https://via.placeholder.com/400x300?text=Atelier", alt: "Atelier", caption: "Atelier créatif" },
+      { src: "https://via.placeholder.com/400x300?text=Bisons", alt: "Bisons", caption: "Réserve de bisons" },
+      { src: "https://via.placeholder.com/400x300?text=Nature", alt: "Nature", caption: "Faune des Carpates" },
+      { src: "https://via.placeholder.com/400x300?text=Monastère", alt: "Monastère", caption: "Monastère de Neamț" },
+    ],
+  },
+  day5: {
+    title: "Jour 5 - Brașov",
+    description: "Visite de la magnifique ville de Brașov, l'Église noire et découverte du charme médiéval",
+    images: [
+      { src: "https://via.placeholder.com/400x300?text=Place+Brașov", alt: "Place", caption: "Place de la ville" },
+      {
+        src: "https://via.placeholder.com/400x300?text=Église+noire",
+        alt: "Église noire",
+        caption: "L'Église noire de Brașov",
+      },
+      { src: "https://via.placeholder.com/400x300?text=Vieille+ville", alt: "Vieille ville", caption: "Vieille ville" },
+      {
+        src: "https://via.placeholder.com/400x300?text=Panorama",
+        alt: "Panorama",
+        caption: "Vue panoramique de Brașov",
+      },
+      { src: "https://via.placeholder.com/400x300?text=Groupe", alt: "Groupe", caption: "Photo de groupe" },
+    ],
+  },
+}
+
+let currentImageIndex = 0
+let currentImages = []
+
+function openDay(dayId) {
+  const day = galleryData[dayId]
+  document.getElementById("modalTitle").textContent = day.title
+  document.getElementById("modalDescription").textContent = day.description
+
+  const gallery = document.getElementById("galleryGrid")
+  gallery.innerHTML = ""
+
+  day.images.forEach((img, index) => {
+    const imgElement = document.createElement("img")
+    imgElement.src = img.src
+    imgElement.alt = img.alt
+    imgElement.className = "gallery-image"
+    imgElement.onclick = (e) => {
+      e.stopPropagation()
+      openLightbox(day.images, index)
+    }
+    gallery.appendChild(imgElement)
+  })
+
+  document.getElementById("galleryModal").style.display = "block"
+}
+
+function closeGallery() {
+  document.getElementById("galleryModal").style.display = "none"
+}
+
+function openLightbox(images, index) {
+  currentImages = images
+  currentImageIndex = index
+  document.getElementById("lightbox").style.display = "flex"
+  document.getElementById("lightbox").style.justifyContent = "center"
+  document.getElementById("lightbox").style.alignItems = "center"
+  updateLightbox()
+}
+
+function closeLightbox() {
+  document.getElementById("lightbox").style.display = "none"
+}
+
+function updateLightbox() {
+  const img = currentImages[currentImageIndex]
+  document.getElementById("lightboxImage").src = img.src
+  document.getElementById("lightboxImage").alt = img.alt
+  document.getElementById("lightboxCaption").textContent = img.caption
+}
+
+function nextImage() {
+  currentImageIndex = (currentImageIndex + 1) % currentImages.length
+  updateLightbox()
+}
+
+function prevImage() {
+  currentImageIndex = (currentImageIndex - 1 + currentImages.length) % currentImages.length
+  updateLightbox()
+}
+
+// Fermer les modals en cliquant dehors
+window.onclick = (event) => {
+  const modal = document.getElementById("galleryModal")
+  const lightbox = document.getElementById("lightbox")
+  if (event.target === modal) {
+    closeGallery()
+  }
+  if (event.target === lightbox) {
+    closeLightbox()
+  }
+}
+
+// Navigation au clavier
+document.addEventListener("keydown", (e) => {
+  if (document.getElementById("lightbox").style.display === "flex") {
+    if (e.key === "ArrowRight") nextImage()
+    if (e.key === "ArrowLeft") prevImage()
+    if (e.key === "Escape") closeLightbox()
+  }
+})
