@@ -96,7 +96,7 @@ const galleryData = {
 
       {
         type: "video",
-        src: "https://github.com/triscroumanie/site/blob/main/assets/video/vid%C3%A9o_1.mp4?raw=true",
+        src: "https://github.com/triscroumanie/site3/blob/a3ae55ccd04baee89a664b595698081471a87672/assets/video/video1.mp4?raw=true",
         poster: "assets/img/vignette_video_j2.png",
         alt: "Vidéo citadelle",
         caption: "Arrivée à la \"NEAMŢ CITADEL\"",
@@ -122,6 +122,21 @@ const galleryData = {
         caption: "Tenues traditionnelles",
       },
       { src: "assets/img/J2/livres.jpg", alt: "Livres", caption: "Livres à la citadelle" },
+      {
+        src: "assets/img/J2/livre1.jpg",
+        alt: "Livres",
+        caption: "Livres à la citadelle",
+      },
+      {
+        src: "assets/img/J2/chateau2.jpg",
+        alt: "Fin de la visite",
+        caption: "Fin de la visite de la citadelle",
+      },
+      {
+        src: "assets/img/J2/photo_groupe.jpg",
+        alt: "Photo de groupe",
+        caption: "Photo de groupe",
+      },
     ],
   },
   day3: {
