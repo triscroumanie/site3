@@ -143,7 +143,8 @@ const galleryData = {
     title: "Jour 3 - Entreprise ELECTRA & Iaşi",
     description: "Visite de l'entreprise ELECTRA et exploration de la capitale historique Iaşi",
     images: [
-      { src: "https://via.placeholder.com/400x300?text=ELECTRA", alt: "Usine", caption: "Usine ELECTRA" },
+      { src: "assets/img/J3/photo_15.jpg", alt: "Usine", caption: "Usine ELECTRA" },
+      { src: "assets/img/J3/photo_15.jpg", alt: "Usine", caption: "Usine ELECTRA" },
       {
         src: "https://via.placeholder.com/400x300?text=Palais+culture",
         alt: "Palais",
