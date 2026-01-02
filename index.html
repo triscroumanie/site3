@@ -98,7 +98,11 @@
 
   <!-- Gallery Modal -->
   <div id="galleryModal" class="modal">
-    <span class="close" onclick="closeGallery()">&times;</span>
+    <button class="close" onclick="closeGallery()" aria-label="Fermer la galerie">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16" aria-hidden="true">
+        <path d="M6 6l12 12M6 18L18 6"></path>
+      </svg>
+    </button>
     <div class="modal-content">
       <h2 id="modalTitle"></h2>
       <p id="modalDescription"></p>
@@ -108,7 +112,11 @@
 
   <!-- Lightbox -->
   <div id="lightbox" class="lightbox">
-    <span class="close" onclick="closeLightbox()">&times;</span>
+    <button class="close" onclick="closeLightbox()" aria-label="Fermer la lightbox">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16" aria-hidden="true">
+        <path d="M6 6l12 12M6 18L18 6"></path>
+      </svg>
+    </button>
     <img class="lightbox-image" id="lightboxImage" src="/placeholder.svg" alt="">
     <video class="lightbox-video" id="lightboxVideo" controls style="display:none; max-width:90%; max-height:80%;"></video>
     <p class="lightbox-caption" id="lightboxCaption"></p>
