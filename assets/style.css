@@ -347,7 +347,7 @@ body {
 }
 
 .nav-button {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.55);
   color: white;
   border: none;
   padding: 1rem 1.5rem;
@@ -358,7 +358,7 @@ body {
 }
 
 .nav-button:hover {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 .close {
@@ -430,14 +430,27 @@ body {
   }
 
   .lightbox-nav {
-    flex-direction: column;
-    justify-content: center;
-    gap: 1rem;
-    padding: 1rem;
+    /* place arrows left and right on small screens */
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0;
+    padding: 0 1rem;
+    transform: translateY(-50%);
+    width: 100%;
+    pointer-events: auto;
   }
 
-  .nav-button {
-    width: 100%;
+  .lightbox-nav .nav-button {
+    width: auto;
+    padding: 0.45rem;
+    font-size: 1.2rem;
+    height: 2.6rem;
+    min-width: 2.6rem;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.45);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 
