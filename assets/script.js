@@ -144,22 +144,20 @@ const galleryData = {
     description: "Visite de l'entreprise ELECTRA et exploration de la capitale historique Iaşi",
     images: [
       { src: "assets/img/J3/photo_15.jpg", alt: "Usine", caption: "Usine ELECTRA" },
-      { src: "assets/img/J3/photo_15.jpg", alt: "Usine", caption: "Usine ELECTRA" },
-      {
-        src: "https://via.placeholder.com/400x300?text=Palais+culture",
-        alt: "Palais",
-        caption: "Palais de la culture de Iaşi",
-      },
-      {
-        src: "https://via.placeholder.com/400x300?text=Monastère",
-        alt: "Monastère",
-        caption: "Monastère des Trois Saints",
-      },
-      {
-        src: "https://via.placeholder.com/400x300?text=Cathédrale",
-        alt: "Cathédrale",
-        caption: "Cathédrale Métropolitaine",
-      },
+
+      { src: "assets/img/J3/photo_31.jpg", alt: "Usine", caption: "Usine ELECTRA" },
+      
+      { src: "assets/img/J3/photo_12.jpg", alt: "Usine", caption: "Usine ELECTRA" },
+
+      { src: "assets/img/J3/photo_29.jpg", alt: "Usine", caption: "Usine ELECTRA" },
+
+
+      { src: "assets/img/J3/photo_02.jpg", alt: "Usine", caption: "Usine ELECTRA", },
+
+      { src: "assets/img/J3/photo_13.jpg", alt: "PCB ELECTRA", caption: "Panneau PCB ELECTRA", },
+
+      { src: "assets/img/J3/photo_35.jpg", alt: "Usine", caption: "Usine ELECTRA", },
+
     ],
   },
   day4: {

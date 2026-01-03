@@ -20,10 +20,9 @@ export function GalleryLightbox({ images, selectedIndex, onClose, onPrevious, on
     <div className="fixed inset-0 z-50 bg-background/95 backdrop-blur-sm flex items-center justify-center p-4 animate-in fade-in duration-200">
       <button
         onClick={onClose}
-        aria-label="Fermer"
-        className="absolute top-6 right-6 w-12 h-12 p-0 hover:bg-secondary rounded-full transition-colors flex items-center justify-center"
+        className="absolute top-6 right-6 p-2 hover:bg-secondary rounded-full transition-colors"
       >
-        <X className="w-8 h-8" />
+        <X className="w-6 h-6" />
       </button>
 
       <div className="relative w-full h-full flex items-center justify-center">
