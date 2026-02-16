@@ -21,6 +21,8 @@ body {
   background-color: var(--primary);
   color: var(--secondary);
   line-height: 1.6;
+  /* disable horizontal scrolling to stop swipe-induced page shift */
+  overflow-x: hidden;
 }
 
 /* Navigation */
@@ -159,9 +161,11 @@ body {
   flex-wrap: wrap;
   gap: 2rem;
   margin: 0 auto;
-  max-width: 9000px;
+  /* reasonable container width so it scales on mobile */
+  max-width: 1200px;
   justify-content: center;
-  min-width: 400px;
+  /* remove fixed minimum width that forces zoom
+     (causes mobile viewport to enlarge and allows horizontal swiping) */
 }
 
 .day-card {
