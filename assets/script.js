@@ -143,21 +143,29 @@ const galleryData = {
     title: "Jour 3 - Entreprise ELECTRA & Iaşi",
     description: "Visite de l'entreprise ELECTRA et exploration de la capitale historique Iaşi",
     images: [
-      { src: "assets/img/J3/photo_15.jpg", alt: "Usine", caption: "Usine ELECTRA" },
+      // matin – usine ELECTRA
+      { src: "assets/img/J3/photo_15.jpg", alt: "Usine", caption: "Visite de l'usine ELECTRA", part: "morning" },
+      { src: "assets/img/J3/photo_31.jpg", alt: "Usine", caption: "Visite de l'usine ELECTRA", part: "morning" },
+      { src: "assets/img/J3/photo_12.jpg", alt: "Usine", caption: "Visite de l'usine ELECTRA", part: "morning" },
+      { src: "assets/img/J3/photo_29.jpg", alt: "Usine", caption: "Visite de l'usine ELECTRA", part: "morning" },
+      { src: "assets/img/J3/photo_02.jpg", alt: "Usine", caption: "Visite de l'usine ELECTRA", part: "morning" },
+      { src: "assets/img/J3/photo_13.jpg", alt: "PCB ELECTRA", caption: "Panneau PCB ELECTRA", part: "morning" },
+      { src: "assets/img/J3/photo_35.jpg", alt: "Usine", caption: "Présentation des procédés de fabrication d'interphones", part: "morning" },
+      { src: "assets/img/J3/photo_27.jpg", alt: "Usine", caption: "Présentation des procédés de fabrication d'interphones", part: "morning" },
+      { src: "assets/img/J3/photo_32.jpg", alt: "Usine", caption: "Présentation des procédés de fabrication d'interphones", part: "morning" },
+      { src: "assets/img/J3/photo_33.jpg", alt: "Usine", caption: "Présentation des procédés de fabrication d'interphones", part: "morning" },
+      { src: "assets/img/J3/photo_36.jpg", alt: "Usine", caption: "Présentation des procédés de fabrication d'interphones", part: "morning" },
+      { src: "assets/img/J3/photo_26.jpg", alt: "Usine", caption: "Présentation des procédés de fabrication d'interphones", part: "morning" },
+      { src: "assets/img/J3/photo_34.jpg", alt: "Usine", caption: "Présentation des procédés de fabrication d'interphones", part: "morning" },
+      { src: "assets/img/J3/photo_37.jpg", alt: "Usine", caption: "Présentation des procédés de fabrication d'interphones", part: "morning" },
 
-      { src: "assets/img/J3/photo_31.jpg", alt: "Usine", caption: "Usine ELECTRA" },
-      
-      { src: "assets/img/J3/photo_12.jpg", alt: "Usine", caption: "Usine ELECTRA" },
-
-      { src: "assets/img/J3/photo_29.jpg", alt: "Usine", caption: "Usine ELECTRA" },
-
-
-      { src: "assets/img/J3/photo_02.jpg", alt: "Usine", caption: "Usine ELECTRA", },
-
-      { src: "assets/img/J3/photo_13.jpg", alt: "PCB ELECTRA", caption: "Panneau PCB ELECTRA", },
-
-      { src: "assets/img/J3/photo_35.jpg", alt: "Usine", caption: "Usine ELECTRA", },
-
+      // après‑midi – Iaşi
+      { src: "assets/img/J3/photo_17.jpg", alt: "Iaşi", caption: "Découverte de la ville de Iaşi", part: "afternoon" },
+      { src: "assets/img/J3/photo_18.jpg", alt: "Iaşi", caption: "Découverte de la ville de Iaşi", part: "afternoon" },
+      { src: "assets/img/J3/photo_19.jpg", alt: "Iaşi", caption: "Découverte de la ville de Iaşi", part: "afternoon" },
+      { src: "assets/img/J3/photo_20.jpg", alt: "Iaşi", caption: "Découverte de la ville de Iaşi", part: "afternoon" },
+      { src: "assets/img/J3/photo_21.jpg", alt: "Iaşi", caption: "Découverte de la ville de Iaşi", part: "afternoon" },
+      { src: "assets/img/J3/photo_22.jpg", alt: "Iaşi", caption: "Découverte de la ville de Iaşi", part: "afternoon" },
     ],
   },
   day4: {
@@ -202,7 +210,18 @@ function openDay(dayId) {
   const gallery = document.getElementById("galleryGrid")
   gallery.innerHTML = ""
 
+  let lastPart = null
   day.images.forEach((img, index) => {
+    // insert divider when part changes
+    const part = img.part || null
+    if (part && part !== lastPart) {
+      const divider = document.createElement("div")
+      divider.className = "gallery-part-divider"
+      divider.textContent = part === "morning" ? "Matin" : "Après‑midi"
+      gallery.appendChild(divider)
+      lastPart = part
+    }
+
     if (img.type === "video") {
       const wrapper = document.createElement("div")
       wrapper.className = "video-thumb-wrapper"

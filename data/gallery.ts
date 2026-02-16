@@ -2,6 +2,11 @@ export type GalleryImage = {
   src: string
   alt: string
   caption: string
+  /**
+   * optional marker to split a day's gallery into sub‑sections
+   * allowed values are "morning" | "afternoon" (français is added in UI)
+   */
+  part?: "morning" | "afternoon"
 }
 
 export type TripSection = {
@@ -98,27 +103,33 @@ export const galleryData: Record<string, TripSection> = {
     description:
       "Visite de l'entreprise ELECTRA (production d'interphones) et exploration de la capitale historique Iaşi",
     images: [
-      { src: "/placeholder.svg?height=400&width=400", alt: "Usine ELECTRA", caption: "Visite entreprise ELECTRA" },
-      { src: "/placeholder.svg?height=400&width=400", alt: "Production électronique", caption: "" },
+      // matin : usine ELECTRA
+      { src: "/placeholder.svg?height=400&width=400", alt: "Usine ELECTRA", caption: "Visite entreprise ELECTRA", part: "morning" },
+      { src: "/placeholder.svg?height=400&width=400", alt: "Production électronique", caption: "", part: "morning" },
+      // après-midi : Iaşi
       {
         src: "/placeholder.svg?height=400&width=400",
         alt: "Palais culture Iaşi",
         caption: "Palais de la culture de Iaşi",
+        part: "afternoon",
       },
-      { src: "/placeholder.svg?height=400&width=400", alt: "Vue villes", caption: "" },
+      { src: "/placeholder.svg?height=400&width=400", alt: "Vue villes", caption: "", part: "afternoon" },
       {
         src: "/placeholder.svg?height=400&width=400",
         alt: "Monastère",
         caption: "Monastère des Trois Saints Hiérarques",
+        part: "afternoon",
       },
-      { src: "/placeholder.svg?height=400&width=400", alt: "Hôtel ville", caption: "Hôtel de ville de Iaşi" },
+      { src: "/placeholder.svg?height=400&width=400", alt: "Hôtel ville", caption: "Hôtel de ville de Iaşi", part: "afternoon" },
       {
         src: "/placeholder.svg?height=400&width=400",
         alt: "Cathédrale",
         caption: "Cathédrale Métropolitaine de Iasi",
+        part: "afternoon",
       },
     ],
   },
+
   day4: {
     title: "Jour 4 - Ateliers & Réserve de bisons",
     description:
