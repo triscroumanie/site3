@@ -161,11 +161,32 @@ const galleryData = {
 
       // après‑midi – Iaşi
       { src: "assets/img/J3/photo_40.jpg", alt: "Iaşi", caption: "Palais de la culture de Iaşi", part: "afternoon" },
-      { src: "assets/img/J3/photo_08.jpg", alt: "Iaşi", caption: "Découverte de la ville de Iaşi", part: "afternoon" },
-      { src: "assets/img/J3/photo_19.jpg", alt: "Iaşi", caption: "Découverte de la ville de Iaşi", part: "afternoon" },
-      { src: "assets/img/J3/photo_20.jpg", alt: "Iaşi", caption: "Découverte de la ville de Iaşi", part: "afternoon" },
-      { src: "assets/img/J3/photo_21.jpg", alt: "Iaşi", caption: "Découverte de la ville de Iaşi", part: "afternoon" },
-      { src: "assets/img/J3/photo_22.jpg", alt: "Iaşi", caption: "Découverte de la ville de Iaşi", part: "afternoon" },
+      { src: "assets/img/J3/photo_08.jpg", alt: "Iaşi", caption: "Palais de la culture de Iaşi", part: "afternoon" },
+      { src: "assets/img/J3/photo_21.jpg", alt: "Iaşi", caption: "Palais de la culture de Iaşi", part: "afternoon" },
+      { src: "assets/img/J3/photo_10.jpg", alt: "Iaşi", caption: "Découverte du palais de la culture de Iaşi", part: "afternoon" },
+      { src: "assets/img/J3/photo_09.jpg", alt: "Iaşi", caption: "Découverte du palais de la culture de Iaşi", part: "afternoon" },
+      { src: "assets/img/J3/photo_45.jpg", alt: "Iaşi", caption: "Découverte du palais de la culture de Iaşi", part: "afternoon" },
+      { src: "assets/img/J3/photo_46.jpg", alt: "Iaşi", caption: "Découverte du palais de la culture de Iaşi", part: "afternoon" },
+      { src: "assets/img/J3/photo_01.jpg", alt: "Iaşi", caption: "Palais de la culture de Iaşi", part: "afternoon" },
+      { src: "assets/img/J3/photo_43.jpg", alt: "Iaşi", caption: "Centre commercial proche du palais de la culture", part: "afternoon" },
+      { src: "assets/img/J3/photo_11.jpg", alt: "Iaşi", caption: "Centre commercial proche du palais de la culture", part: "afternoon" },
+      { src: "assets/img/J3/photo_38.jpg", alt: "Iaşi", caption: "Centre commercial proche du palais de la culture", part: "afternoon" },
+      { src: "assets/img/J3/photo_41.jpg", alt: "Iaşi", caption: "Visite de Iaşi", part: "afternoon" },
+      { src: "assets/img/J3/photo_28.jpg", alt: "Iaşi", caption: "Visite de Iaşi", part: "afternoon" },
+      { src: "assets/img/J3/photo_24.jpg", alt: "Iaşi", caption: "Monastère des Trois Saints Hiérarques", part: "afternoon" },
+      { src: "assets/img/J3/photo_25.jpg", alt: "Iaşi", caption: "Monastère des Trois Saints Hiérarques", part: "afternoon" },
+      { src: "assets/img/J3/photo_44.jpg", alt: "Iaşi", caption: "Monastère des Trois Saints Hiérarques", part: "afternoon" },
+      { src: "assets/img/J3/photo_20.jpg", alt: "Iaşi", caption: "Monastère des Trois Saints Hiérarques", part: "afternoon" },
+      { src: "assets/img/J3/photo_18.jpg", alt: "Iaşi", caption: "Visite de Iaşi", part: "afternoon" },
+      { src: "assets/img/J3/photo_03.jpg", alt: "Iaşi", caption: "Hôtel de ville de Iaşi", part: "afternoon" },
+      { src: "assets/img/J3/photo_42.jpg", alt: "Iaşi", caption: "Cathédrale Métropolitaine de Iaşi", part: "afternoon" },
+      { src: "assets/img/J3/photo_23.jpg", alt: "Iaşi", caption: "Visite de Iaşi", part: "afternoon" },
+      { src: "assets/img/J3/photo_19.jpg", alt: "Iaşi", caption: "Cathédrale Métropolitaine de Iaşi", part: "afternoon" },
+      { src: "assets/img/J3/photo_17.jpg", alt: "Iaşi", caption: "Cathédrale Métropolitaine de Iaşi", part: "afternoon" },
+      
+
+
+
     ],
   },
   day4: {
