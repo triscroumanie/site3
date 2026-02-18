@@ -241,7 +241,7 @@ body {
 .gallery-part-divider {
   grid-column: 1 / -1;
   text-align: center;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: bold;
   color: var(--accent);
   margin: 1rem 0 0.5rem;

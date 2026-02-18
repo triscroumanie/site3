@@ -160,8 +160,8 @@ const galleryData = {
       { src: "assets/img/J3/photo_37.jpg", alt: "Usine", caption: "Présentation des procédés de fabrication d'interphones", part: "morning" },
 
       // après‑midi – Iaşi
-      { src: "assets/img/J3/photo_17.jpg", alt: "Iaşi", caption: "Découverte de la ville de Iaşi", part: "afternoon" },
-      { src: "assets/img/J3/photo_18.jpg", alt: "Iaşi", caption: "Découverte de la ville de Iaşi", part: "afternoon" },
+      { src: "assets/img/J3/photo_40.jpg", alt: "Iaşi", caption: "Palais de la culture de Iaşi", part: "afternoon" },
+      { src: "assets/img/J3/photo_08.jpg", alt: "Iaşi", caption: "Découverte de la ville de Iaşi", part: "afternoon" },
       { src: "assets/img/J3/photo_19.jpg", alt: "Iaşi", caption: "Découverte de la ville de Iaşi", part: "afternoon" },
       { src: "assets/img/J3/photo_20.jpg", alt: "Iaşi", caption: "Découverte de la ville de Iaşi", part: "afternoon" },
       { src: "assets/img/J3/photo_21.jpg", alt: "Iaşi", caption: "Découverte de la ville de Iaşi", part: "afternoon" },
