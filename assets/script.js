@@ -183,10 +183,6 @@ const galleryData = {
       { src: "assets/img/J3/photo_23.jpg", alt: "Iaşi", caption: "Visite de Iaşi", part: "afternoon" },
       { src: "assets/img/J3/photo_19.jpg", alt: "Iaşi", caption: "Cathédrale Métropolitaine de Iaşi", part: "afternoon" },
       { src: "assets/img/J3/photo_17.jpg", alt: "Iaşi", caption: "Cathédrale Métropolitaine de Iaşi", part: "afternoon" },
-      
-
-
-
     ],
   },
   day4: {
