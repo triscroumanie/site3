@@ -202,6 +202,22 @@ const galleryData = {
 let currentImageIndex = 0
 let currentImages = []
 
+function disableBodyScroll() {
+  document.body.style.overflow = "hidden"
+}
+
+function enableBodyScroll() {
+  const galleryModal = document.getElementById("galleryModal")
+  const lightbox = document.getElementById("lightbox")
+  
+  const galleryDisplay = window.getComputedStyle(galleryModal).display
+  const lightboxDisplay = window.getComputedStyle(lightbox).display
+  
+  if (galleryDisplay === "none" && lightboxDisplay === "none") {
+    document.body.style.overflow = "auto"
+  }
+}
+
 function openDay(dayId) {
   const day = galleryData[dayId]
   document.getElementById("modalTitle").textContent = day.title
@@ -260,10 +276,12 @@ function openDay(dayId) {
   })
 
   document.getElementById("galleryModal").style.display = "block"
+  disableBodyScroll()
 }
 
 function closeGallery() {
   document.getElementById("galleryModal").style.display = "none"
+  enableBodyScroll()
 }
 
 function openLightbox(images, index) {
@@ -272,6 +290,7 @@ function openLightbox(images, index) {
   document.getElementById("lightbox").style.display = "flex"
   document.getElementById("lightbox").style.justifyContent = "center"
   document.getElementById("lightbox").style.alignItems = "center"
+  disableBodyScroll()
   updateLightbox()
 }
 
@@ -282,6 +301,7 @@ function closeLightbox() {
     videoEl.src = ""
   }
   document.getElementById("lightbox").style.display = "none"
+  enableBodyScroll()
 }
 
 function updateLightbox() {
