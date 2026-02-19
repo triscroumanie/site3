@@ -163,4 +163,45 @@ export const galleryData: Record<string, TripSection> = {
       { src: "/placeholder.svg?height=400&width=400", alt: "Photo groupe", caption: "Photo de groupe à Brașov" },
     ],
   },
+    day6: {
+    title: "Jour 6 - Retour à Lyon",
+    description: "Retour à Lyon après une semaine de voyage en Roumanie",
+    images: [
+      { src: "/placeholder.svg?height=400&width=400", alt: "Place Brașov", caption: "Place de la ville" },
+      {
+        src: "/placeholder.svg?height=400&width=400",
+        alt: "Église noire",
+        caption: 'Visite de "L\'Église noire" de Brașov',
+      },
+      { src: "/placeholder.svg?height=400&width=400", alt: "Vieille ville", caption: "" },
+      { src: "/placeholder.svg?height=400&width=400", alt: "Architecture historique", caption: "" },
+      {
+        src: "/placeholder.svg?height=400&width=400",
+        alt: "Panorama Brașov",
+        caption: "Vue panoramique de Brașov",
+      },
+      { src: "/placeholder.svg?height=400&width=400", alt: "Photo groupe", caption: "Photo de groupe à Brașov" },
+    ],
+  },
+    parcoursup: {
+    title: "Jour 6 - Retour à Lyon",
+    description: "Retour à Lyon après une semaine de voyage en Roumanie",
+    images: [
+      { src: "/placeholder.svg?height=400&width=400", alt: "Place Brașov", caption: "Place de la ville" },
+      {
+        src: "/placeholder.svg?height=400&width=400",
+        alt: "Église noire",
+        caption: 'Visite de "L\'Église noire" de Brașov',
+      },
+      { src: "/placeholder.svg?height=400&width=400", alt: "Vieille ville", caption: "" },
+      { src: "/placeholder.svg?height=400&width=400", alt: "Architecture historique", caption: "" },
+      {
+        src: "/placeholder.svg?height=400&width=400",
+        alt: "Panorama Brașov",
+        caption: "Vue panoramique de Brașov",
+      },
+      { src: "/placeholder.svg?height=400&width=400", alt: "Photo groupe", caption: "Photo de groupe à Brașov" },
+    ],
+  },
+
 }

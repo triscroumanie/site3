@@ -186,18 +186,53 @@ const galleryData = {
     ],
   },
   day4: {
-    title: "Jour 4 - Ateliers & Réserve de bisons",
+    title: "Jour 4 - Ateliers & découverte de bisons",
     description: "Atelier avec les correspondants, concours d'affiches et visite d'une réserve de bisons",
     images: [
-      { src: "https://via.placeholder.com/400x300?text=Atelier", alt: "Atelier", caption: "Atelier créatif" },
-      { src: "https://via.placeholder.com/400x300?text=Bisons", alt: "Bisons", caption: "Réserve de bisons" },
-      { src: "https://via.placeholder.com/400x300?text=Nature", alt: "Nature", caption: "Faune des Carpates" },
-      { src: "https://via.placeholder.com/400x300?text=Monastère", alt: "Monastère", caption: "Monastère de Neamț" },
+      { src: "assets/img/J4/photo_01.jpg", alt: "Affiche Francofête", caption: "Concours d'affiches autour de la Francophonie", part: "morning" },
+      { src: "assets/img/J4/photo_02.jpg", alt: "Affiches faites par les correspondants roumains", caption: "Concours d'affiches autour de la Francophonie", part: "morning" },
+      { src: "assets/img/J4/photo_06.jpg", alt: "Présentation des affiches", caption: "Présentation des affiches créées par les élèves roumains", part: "morning" },
+      { src: "assets/img/J4/photo_08.jpg", alt: "Affiche gagnante", caption: "Affiche gagnante du concours d'affiches", part: "morning" },
+      { src: "assets/img/J4/photo_13.jpg", alt: "Démonstration des projets scolaires des correspondants", caption: "Démonstration des projets scolaires des correspondants roumains", part: "morning" },
+      { src: "assets/img/J4/photo_14.jpg", alt: "Démonstration des projets scolaires des correspondants", caption: "Démonstration des projets scolaires des correspondants roumains", part: "morning" },
+      { src: "assets/img/J4/photo_10.jpg", alt: "Démonstration des projets scolaires des correspondants", caption: "Démonstration des projets scolaires des correspondants roumains", part: "morning" },
+      { src: "assets/img/J4/photo_11.jpg", alt: "Démonstration des projets scolaires des correspondants", caption: "Démonstration des projets scolaires des correspondants roumains", part: "morning" },
+      { src: "assets/img/J4/photo_12.jpg", alt: "Démonstration des projets scolaires des correspondants", caption: "Démonstration des projets scolaires des correspondants roumains", part: "morning" },
+      { src: "assets/img/J4/photo_09.jpg", alt: "Visite d'un parc de bisons", caption: "Visite d'un parc de bisons", part: "afternoon" },
+      { src: "assets/img/J4/photo_03.jpg", alt: "Visite d'un parc de bisons", caption: "Visite d'un parc de bisons", part: "afternoon" },
+      { src: "assets/img/J4/photo_04.jpg", alt: "Visite d'un parc de bisons", caption: "Visite d'un parc de bisons", part: "afternoon" },
+      { src: "assets/img/J4/photo_17.jpg", alt: "Visite d'un parc de bisons", caption: "Visite d'un parc de bisons", part: "afternoon" },
+      { src: "assets/img/J4/photo_05.jpg", alt: "Visite du monstère de Neamț", caption: "Visite du monstère de Neamț", part: "afternoon" },
+      { src: "assets/img/J4/photo_07.jpg", alt: "VVisite du monstère de Neamț", caption: "Visite du monstère de Neamț", part: "afternoon" },
+      { src: "assets/img/J4/photo_15.jpg", alt: "Visite du monstère de Neamț", caption: "Visite du monstère de Neamț", part: "afternoon" },
+      { src: "assets/img/J4/photo_16.jpg", alt: "Visite du monstère de Neamț", caption: "Visite du monstère de Neamț", part: "afternoon" },
+      { type: "video",src: "https://github.com/triscroumanie/site3/blob/main/assets/video/video_monastere.mp4?raw=true",  poster:"assets/img/vignette_video_j4.png",alt: "Vidéo du monstère de Neamț", caption: "Vidéo du monstère de Neamț", part: "afternoon" },
     ],
   },
   day5: {
     title: "Jour 5 - Brașov",
-    description: "Visite de la magnifique ville de Brașov, l'Église noire et découverte du charme médiéval",
+    description: "Visite de la magnifique ville de Brașov, l'Église noire, de Bran",
+    images: [
+      { src: "https://via.placeholder.com/400x300?text=Place+Brașov", alt: "Place", caption: "Place de la ville", part: "brasov" },
+      {
+        src: "https://via.placeholder.com/400x300?text=Église+noire",
+        alt: "Église noire",
+        caption: "L'Église noire de Brașov",
+        part: "brasov",
+      },
+      { src: "https://via.placeholder.com/400x300?text=Vieille+ville", alt: "Vieille ville", caption: "Vieille ville", part: "brasov" },
+      {
+        src: "https://via.placeholder.com/400x300?text=Panorama",
+        alt: "Panorama",
+        caption: "Vue panoramique de Brașov",
+        part: "brasov",
+      },
+      { src: "https://via.placeholder.com/400x300?text=Groupe", alt: "Groupe", caption: "Photo de groupe", part: "bran" },
+    ],
+  },
+    day6: {
+    title: "Jour 6 - Retour à Lyon",
+    description: "Retour à Lyon après une semaine de voyage en Roumanie",
     images: [
       { src: "https://via.placeholder.com/400x300?text=Place+Brașov", alt: "Place", caption: "Place de la ville" },
       {
@@ -214,6 +249,35 @@ const galleryData = {
       { src: "https://via.placeholder.com/400x300?text=Groupe", alt: "Groupe", caption: "Photo de groupe" },
     ],
   },
+    parcoursup: {
+    title: "Vœux Parcoursup",
+    description: "Préparation et présentation des projets de Parcoursup, échanges sur les parcours d'orientation et les choix d'études supérieures",
+    images: [
+      { src: "https://via.placeholder.com/400x300?text=Place+Brașov", alt: "Place", caption: "Place de la ville" },
+      {
+        src: "https://via.placeholder.com/400x300?text=Église+noire",
+        alt: "Église noire",
+        caption: "L'Église noire de Brașov",
+      },
+      { src: "https://via.placeholder.com/400x300?text=Vieille+ville", alt: "Vieille ville", caption: "Vieille ville" },
+      {
+        src: "https://via.placeholder.com/400x300?text=Panorama",
+        alt: "Panorama",
+        caption: "Vue panoramique de Brașov",
+      },
+      { src: "https://via.placeholder.com/400x300?text=Groupe", alt: "Groupe", caption: "Photo de groupe" },
+    ],
+  },
+
+}
+
+// Mapping des clés `part` vers les libellés affichés (modifiez ici pour changer/ajouter des catégories)
+const partLabels = {
+  morning: "Matin",
+  afternoon: "Après‑midi",
+  brasov: "Brașov",
+  bran: "Bran",
+  lyons: "Lyon",
 }
 
 let currentImageIndex = 0
@@ -250,7 +314,9 @@ function openDay(dayId) {
     if (part && part !== lastPart) {
       const divider = document.createElement("div")
       divider.className = "gallery-part-divider"
-      divider.textContent = part === "morning" ? "Matin" : "Après‑midi"
+      // utilise partLabels pour supporter des catégories arbitraires (villes, etc.)
+      const label = (partLabels && partLabels[part]) || (part.charAt(0).toUpperCase() + part.slice(1))
+      divider.textContent = label
       gallery.appendChild(divider)
       lastPart = part
     }
