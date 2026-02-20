@@ -4,9 +4,9 @@ export type GalleryImage = {
   caption: string
   /**
    * optional marker to split a day's gallery into sub‑sections
-   * allowed values are "morning" | "afternoon" (français is added in UI)
+   * can be "morning", "afternoon", or any custom category like city names
    */
-  part?: "morning" | "afternoon"
+  part?: string
 }
 
 export type TripSection = {
@@ -147,20 +147,24 @@ export const galleryData: Record<string, TripSection> = {
     title: "Jour 5 - Brașov",
     description: "Visite de la magnifique ville de Brașov, l'Église noire et découverte du charme médiéval",
     images: [
-      { src: "/placeholder.svg?height=400&width=400", alt: "Place Brașov", caption: "Place de la ville" },
+      // Brașov
+      { src: "/placeholder.svg?height=400&width=400", alt: "Place Brașov", caption: "Place de la ville", part: "brasov" },
       {
         src: "/placeholder.svg?height=400&width=400",
         alt: "Église noire",
         caption: 'Visite de "L\'Église noire" de Brașov',
+        part: "brasov",
       },
-      { src: "/placeholder.svg?height=400&width=400", alt: "Vieille ville", caption: "" },
-      { src: "/placeholder.svg?height=400&width=400", alt: "Architecture historique", caption: "" },
+      { src: "/placeholder.svg?height=400&width=400", alt: "Vieille ville", caption: "", part: "brasov" },
+      { src: "/placeholder.svg?height=400&width=400", alt: "Architecture historique", caption: "", part: "brasov" },
+      // Bran
       {
         src: "/placeholder.svg?height=400&width=400",
         alt: "Panorama Brașov",
         caption: "Vue panoramique de Brașov",
+        part: "bran",
       },
-      { src: "/placeholder.svg?height=400&width=400", alt: "Photo groupe", caption: "Photo de groupe à Brașov" },
+      { src: "/placeholder.svg?height=400&width=400", alt: "Photo groupe", caption: "Photo de groupe à Brașov", part: "bran" },
     ],
   },
     day6: {
