@@ -92,12 +92,20 @@ const galleryData = {
     title: "Jour 2 - Citadelle de Neamț",
     description: "Visite de la magnifique citadelle de Neamț, exploration de l'histoire et des traditions roumaines",
     images: [
+      {
+        type: "video",
+        src: "https://github.com/triscroumanie/site3/raw/refs/heads/main/assets/video/video2.mp4",
+        poster: "assets/img/J2/vignette2_video_j2.png",
+        alt: "Vidéo citadelle",
+        caption: "Arrivée à la \"NEAMŢ CITADEL\"",
+      },
+
       { src: "assets/img/J2/chateau ensemble2.jpg", alt: "Citadelle", caption: "Citadelle de Neamț" },
 
       {
         type: "video",
-        src: "https://github.com/triscroumanie/site3/blob/a3ae55ccd04baee89a664b595698081471a87672/assets/video/video1.mp4?raw=true",
-        poster: "assets/img/vignette_video_j2.png",
+        src: "https://github.com/triscroumanie/site3/raw/refs/heads/main/assets/video/video1.mp4",
+        poster: "assets/img/J2/vignette_video_j2.png",
         alt: "Vidéo citadelle",
         caption: "Arrivée à la \"NEAMŢ CITADEL\"",
       },
@@ -137,6 +145,14 @@ const galleryData = {
         alt: "Photo de groupe",
         caption: "Photo de groupe",
       },
+      {
+        type: "video",
+        src: "https://github.com/triscroumanie/site3/raw/refs/heads/main/assets/video/video3.mp4",
+        poster: "assets/img/J2/vignette3_video_j2.png",
+        alt: "Vidéo citadelle",
+        caption: "Arrivée à la \"NEAMŢ CITADEL\"",
+      },
+
     ],
   },
   day3: {
@@ -206,7 +222,7 @@ const galleryData = {
       { src: "assets/img/J4/photo_07.jpg", alt: "VVisite du monstère de Neamț", caption: "Visite du monstère de Neamț", part: "afternoon" },
       { src: "assets/img/J4/photo_15.jpg", alt: "Visite du monstère de Neamț", caption: "Visite du monstère de Neamț", part: "afternoon" },
       { src: "assets/img/J4/photo_16.jpg", alt: "Visite du monstère de Neamț", caption: "Visite du monstère de Neamț", part: "afternoon" },
-      { type: "video",src: "https://github.com/triscroumanie/site3/blob/main/assets/video/video_monastere.mp4?raw=true",  poster:"assets/img/vignette_video_j4.png",alt: "Vidéo du monstère de Neamț", caption: "Vidéo du monstère de Neamț", part: "afternoon" },
+      { type: "video",src: "https://github.com/triscroumanie/site3/blob/2703322ca5b1c2e1962dbf5a06b27055e1d14693/assets/video/video_monastere.mp4?raw=true",  poster:"assets/img/J4/vignette_video_j4.png",alt: "Vidéo du monstère de Neamț", caption: "Vidéo du monstère de Neamț", part: "afternoon" },
     ],
   },
   day5: {
@@ -257,51 +273,55 @@ const galleryData = {
       { src: "assets/img/J5/photo_04.jpg", alt: "Auberge", caption: "Auberge de Bran", part: "auberge" },
       { src: "assets/img/J5/photo_03.jpg", alt: "Auberge", caption: "Panorama vu de l'auberge", part: "auberge" },
       { src: "assets/img/J5/photo_05.jpg", alt: "Auberge", caption: "Panorama vu de l'auberge", part: "auberge" },
+      { src: "assets/img/J5/photo_43.jpg", alt: "Auberge", caption: "Panorama vu de l'auberge", part: "auberge" },
+
 
       // Trajet
       { src: "assets/img/J5/photo_36.jpg", alt: "Trajet", caption: "Trajet en direction de Bran", part: "trajet" },
       { src: "assets/img/J5/photo_37.jpg", alt: "Château de Bran", caption: "Trajet en direction de Bran", part: "trajet" },
       { src: "assets/img/J5/photo_38.jpg", alt: "Château de Bran", caption: "Trajet en direction de Bran", part: "trajet" },
       { src: "assets/img/J5/photo_39.jpg", alt: "Château de Bran", caption: "Trajet en direction de Bran", part: "trajet" },
+      { src: "assets/img/J5/photo_44.jpg", alt: "Château de Bran", caption: "Trajet en direction de Bran", part: "trajet" },
+      { src: "assets/img/J5/photo_45.jpg", alt: "Château de Bran", caption: "Trajet en direction de Bran", part: "trajet" },
     ],
   },
     day6: {
-    title: "Jour 6 - Retour à Lyon",
+    title: "Jour 6 - Visite de Bucarest ainsi que du palais de Ceaușescu et retour à Lyon",
     description: "Retour à Lyon après une semaine de voyage en Roumanie",
     images: [
-      { src: "https://via.placeholder.com/400x300?text=Place+Brașov", alt: "Place", caption: "Place de la ville" },
-      {
-        src: "https://via.placeholder.com/400x300?text=Église+noire",
-        alt: "Église noire",
-        caption: "L'Église noire de Brașov",
-      },
-      { src: "https://via.placeholder.com/400x300?text=Vieille+ville", alt: "Vieille ville", caption: "Vieille ville" },
-      {
-        src: "https://via.placeholder.com/400x300?text=Panorama",
-        alt: "Panorama",
-        caption: "Vue panoramique de Brașov",
-      },
-      { src: "https://via.placeholder.com/400x300?text=Groupe", alt: "Groupe", caption: "Photo de groupe" },
+
+      { src: "assets/img/J6/photo_02.jpg", alt: "Trajet", caption: "Trajet vers Bucarest"},
+      { src: "assets/img/J6/photo_10.jpg", alt: "Trajet", caption: "Trajet dans Bucarest"},
+      { src: "assets/img/J6/photo_01.jpg", alt: "Trajet", caption: "Trajet vers Bucarest"},
+      { src: "assets/img/J6/photo_24.jpg", alt: "Palais de Ceaușescu", caption: "Palais de Ceaușescu à Bucarest"},
+      { src: "assets/img/J6/photo_18.jpg", alt: "Photo de groupe dans le palais de Ceaușescu", caption: "Photo de groupe dans le palais de Ceaușescu à Bucarest"},
+      { src: "assets/img/J6/photo_15.jpg", alt: "Salle de spectacle du palais de Ceaușescu", caption: "Salle de spectacle du palais"},
+      { src: "assets/img/J6/photo_05.jpg", alt: "Couloirs du palais", caption: "Couloirs du palais"},
+      { src: "assets/img/J6/photo_13.jpg", alt: "Hall de l'Union (Sala Unirii)", caption: "Hall de l'Union (Sala Unirii)"},
+      { src: "assets/img/J6/photo_14.jpg", alt: "Salle du palais", caption: "Salle du palais"},
+      { src: "assets/img/J6/photo_17.jpg", alt: "Salle du palais", caption: "Salle du palais"},
+      { src: "assets/img/J6/photo_04.jpg", alt: "Couloirs du palais", caption: "Couloirs du palais"},
+      { src: "assets/img/J6/photo_03.jpg", alt: "Salle Ionescu", caption: "Salle Ionescu"},
+      { src: "assets/img/J6/photo_12.jpg", alt: "Salle Ionescu", caption: "Salle Ionescu"},
+      { src: "assets/img/J6/photo_08.jpg", alt: "Salle Ionescu", caption: "Salle Ionescu"},
+      { src: "assets/img/J6/photo_11.jpg", alt: "Escalier du palais", caption: "Escalier du palais"},
+      { src: "assets/img/J6/photo_19.jpg", alt: "Photo de groupe", caption: "Photo de groupe"},
+      { src: "assets/img/J6/photo_23.jpg", alt: "Visite de Bucarest", caption: "Visite de Bucarest"},
+      { src: "assets/img/J6/photo_09.jpg", alt: "Librairie dans Bucarest", caption: "Librairie dans Bucarest"},
+      { src: "assets/img/J6/photo_20.jpg", alt: "Déjeuner dans un restaurant de Bucarest", caption: "Déjeuner dans un restaurant de Bucarest"},
+      { src: "assets/img/J6/photo_06.jpg", alt: "Déjeuner dans un restaurant de Bucarest", caption: "Déjeuner dans un restaurant de Bucarest"},
+      { src: "assets/img/J6/photo_07.jpg", alt: "Déjeuner dans un restaurant de Bucarest", caption: "Déjeuner dans un restaurant de Bucarest"},
+      { src: "assets/img/J6/photo_22.jpg", alt: "Vol retour vers Lyon", caption: "Vol retour vers Lyon"},
+      { src: "assets/img/J6/photo_21.jpg", alt: "Vol retour vers Lyon", caption: "Vol retour vers Lyon"},
+
     ],
   },
     parcoursup: {
     title: "Vœux Parcoursup",
     description: "Préparation et présentation des projets de Parcoursup, échanges sur les parcours d'orientation et les choix d'études supérieures",
     images: [
-      { src: "https://via.placeholder.com/400x300?text=Place+Brașov", alt: "Place", caption: "Place de la ville" },
-      {
-        src: "https://via.placeholder.com/400x300?text=Église+noire",
-        alt: "Église noire",
-        caption: "L'Église noire de Brașov",
-      },
-      { src: "https://via.placeholder.com/400x300?text=Vieille+ville", alt: "Vieille ville", caption: "Vieille ville" },
-      {
-        src: "https://via.placeholder.com/400x300?text=Panorama",
-        alt: "Panorama",
-        caption: "Vue panoramique de Brașov",
-      },
-      { src: "https://via.placeholder.com/400x300?text=Groupe", alt: "Groupe", caption: "Photo de groupe" },
-    ],
+      { src: "assets/img/Parcoursup/photo_02.jpg", alt: "Vol retour vers Lyon", caption: "Vol retour vers Lyon"},
+      ],
   },
 
 }
@@ -314,7 +334,6 @@ const partLabels = {
   auberge: "Auberge",
   trajet: "Trajet",
   bran: "Bran",
-  lyons: "Lyon",
 }
 
 let currentImageIndex = 0
