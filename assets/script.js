@@ -97,7 +97,7 @@ const galleryData = {
         src: "https://github.com/triscroumanie/site3/raw/refs/heads/main/assets/video/video2.mp4",
         poster: "assets/img/J2/vignette2_video_j2.png",
         alt: "Vidéo citadelle",
-        caption: "Arrivée à la \"NEAMŢ CITADEL\"",
+        caption: "\"NEAMŢ CITADEL\" vue du ciel",
       },
 
       { src: "assets/img/J2/chateau ensemble2.jpg", alt: "Citadelle", caption: "Citadelle de Neamț" },
