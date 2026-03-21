@@ -124,10 +124,22 @@ body {
   text-align: center;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   transition: transform 0.3s;
+  position: relative;
 }
 
 .stat-card:hover {
   transform: translateY(-5px);
+}
+
+.stat-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* width: calc(100% - 20px); */
+  height: calc(100% - 20px);
+  /* object-fit: contain; */
+  border-radius: 20px;
 }
 
 .stat-value {
